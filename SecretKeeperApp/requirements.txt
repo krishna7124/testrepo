@@ -1,0 +1,38 @@
+mysql-connector
+# Core Streamlit dependencies
+streamlit
+streamlit-webrtc
+
+# Core libraries for biometric and speech recognition
+opencv-python
+face_recognition
+SpeechRecognition
+
+cmake==3.25.2  # Required for building dlib
+# dlib-19.24.99-cp312-cp312-win_amd64.whl  # dlib Required for face_recognition
+
+dlib==19.24.2
+
+# Database connector for MySQL
+# mysql-connector-python-rf
+
+# Numerical and scientific computing libraries
+numpy
+
+# Visualization libraries
+matplotlib
+seaborn
+plotly
+
+# Cryptography for secret encryption
+cryptography
+
+# NLP for sentiment analysis and text processing
+textblob
+
+# Logging (built-in Python library, no need to add this)
+# logging
+
+# Additional libraries for better compatibility
+pandas  # For data manipulation, useful with Streamlit
+Pillow  # Image processing (optional for face recognition)
